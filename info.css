@@ -1,0 +1,129 @@
+@font-face {
+    font-family: 'Terminal Grotesque';
+    src: url(fonts/terminal-grotesque.ttf)
+}
+
+@font-face {
+  font-family: 'redaction';
+  src: url(fonts/Redaction35-Regular.otf);
+}
+
+.maincontent {
+  margin-top: 100px;
+}
+
+body {
+            animation: fadeInAnimation ease 2s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+        }
+        @keyframes fadeInAnimation {
+            0% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+h1 {
+  font-family: 'Terminal Grotesque';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 50px;
+}
+
+h2 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 30px;
+}
+
+p {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 17px;
+}
+
+.BioContainer{
+  display: flex;
+  margin-right: 150px;
+  margin-left: 150px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+
+}
+
+.box{
+  display:flex;
+  align-self: flex-start;
+  align-items: left;
+  justify-content: center;
+  flex-direction: column;
+  width: 45%;
+}
+
+img {
+
+  width: 100%;
+}
+
+a:link {
+  text-decoration: none;
+  color: #0000FF;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #0000FF;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+
+.footer {
+  font-family: acumin-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+  padding-top: 40px; padding-bottom: 40px; padding-right: 30px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: 25px;
+}
+
+/*this will take in affect on smaller screens
+kinda went the other direction with min-width on nav bar*/
+@media screen and (max-width: 700px) {
+  .BioContainer{
+    flex-direction: column;
+    margin-right: 25px;
+    margin-left: 25px;
+  }
+  .box{
+    width: 90%;
+    align-self: center;
+  }
+
+}
