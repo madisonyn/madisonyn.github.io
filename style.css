@@ -167,18 +167,40 @@ kinda went the other direction with min-width on nav bar*/
 @media screen and (max-width: 700px) {
   .ProjectContainer{
     flex-direction: column;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
   .box{
     width: 90%;
     align-self: center;
   }
 
+  .introduction {
+    margin-right: 50px;
+    margin-left: 40px;
+    padding-top: 75px;
+    padding-bottom: 50px;
+
+  }
+
+  .footer {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 40px; padding-bottom: 40px; padding-right: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+  }
+
   hr {
     display: block;
     border-width:0;
-    width: 82%;
+    width: 84%;
     height:1px;
     margin: auto;
     color:black;

@@ -358,8 +358,8 @@ kinda went the other direction with min-width on nav bar*/
 @media screen and (max-width: 700px) {
   .WorkContainer{
     flex-direction: column;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .box{
@@ -388,8 +388,8 @@ kinda went the other direction with min-width on nav bar*/
       padding-top: 8px;
       padding-bottom: 8px;
     flex-direction: column;
-    margin-right: 25px;
-    margin-left: 25px;
+    margin-right: 15px;
+    margin-left: 15px;
   }
 
   .GoalBox{
@@ -428,6 +428,20 @@ kinda went the other direction with min-width on nav bar*/
     margin: auto;
     color:black;
     background-color:black;
+  }
+
+  .footer {
+    font-family: acumin-pro, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    padding-top: 40px; padding-bottom: 40px; padding-right: 30px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
   }
 
 }
