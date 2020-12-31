@@ -81,7 +81,7 @@
   font-size: 35px;
 }
 
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 350px) {
     .navbar {
         display: flex;
         justify-content: space-between;
