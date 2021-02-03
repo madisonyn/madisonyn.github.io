@@ -44,7 +44,7 @@ h3 {
   font-family: acumin-pro-wide, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 28px;
+  font-size: 40px;
 }
 
 p {
@@ -110,6 +110,8 @@ hr {
   flex-direction: row;
   align-items: center;
   justify-content: space-evenly;
+  margin-left: auto;
+  margin-right: auto;
   padding-top: 50px;
   padding-bottom: 50px;
 
