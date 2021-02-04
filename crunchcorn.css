@@ -284,6 +284,12 @@ a:active {
 /*this will take in affect on smaller screens
 kinda went the other direction with min-width on nav bar*/
 @media screen and (max-width: 700px) {
+  #bannerimage {
+    padding-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+  }
+
   .WorkContainer{
     flex-direction: column;
     margin-right: 15px;
