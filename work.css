@@ -8,6 +8,11 @@
   src: url(fonts/Redaction35-Regular.otf);
 }
 
+@font-face {
+  font-family: 'sporting grotesque';
+  src: url(fonts/SportingGrotesque-Bold.otf);
+}
+
 .maincontent {
   margin-top: 100px;
 }
@@ -34,14 +39,14 @@ h1 {
 }
 
 h2 {
-  font-family: acumin-pro-wide, sans-serif;
+  font-family: 'sporting grotesque';
   font-weight: 600;
   font-style: normal;
   font-size: 50px;
 }
 
 h3 {
-  font-family: acumin-pro-wide, sans-serif;
+  font-family: 'sporting grotesque';
   font-weight: 600;
   font-style: normal;
   font-size: 40px;
